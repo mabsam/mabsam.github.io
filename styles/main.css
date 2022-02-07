@@ -1,0 +1,20 @@
+.header {
+    background-image: url("../blog/resources/images/in-love.jpg");
+    height: 200
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.name {
+    text-align: center;
+}
