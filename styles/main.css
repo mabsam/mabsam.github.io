@@ -4,11 +4,10 @@
     height: 200px;
 }
 
-nav {
+ul {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    text-decoration: none;
     list-style-type: none;
 }
 
