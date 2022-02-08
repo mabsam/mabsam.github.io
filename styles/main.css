@@ -1,9 +1,54 @@
 
+/** {
+    margin: 0;
+    padding: 0;
+}
 .header {
     background-image: url("../blog/resources/images/in-love.jpg");
     height: 200px;
+    
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
 }
 
+.navigation a {
+    text-decoration: none;
+   
+
+.name {
+    text-align: center;
+}
+
+
+
+
+.navigation a:hover {
+    color: rgb(250, 243, 231);
+    text-shadow: 1px 1px 2px rgb(218, 142, 1), 0 0 25px rgb(250, 243, 231);
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: rgb(131, 209, 240);
+    width: 100%;
+    padding: 1rem 0;
+}
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(244, 253, 253);
+    font-family: 'Roboto', sans-serif;
+}
 ul {
     display: flex;
     align-items: center;
@@ -13,8 +58,36 @@ ul {
 
 nav a {
     text-decoration: none;
+    font-weight: 900;
+    font-size: 1.3rem;
+    color: rgb(250, 243, 231);
 }
 
+.navigation a:hover {
+    color: rgb(250, 243, 231);
+    text-shadow: 1px 1px 2px rgb(218, 142, 1), 0 0 25px rgb(250, 243, 231);
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: rgb(131, 209, 240);
+    width: 100%;
+    padding: 1rem 0;
+}
 .name {
+    color: rgb(238, 15, 15);
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.8rem;
+    
+    
+}
+.main {
     text-align: center;
+    padding: 1.2rem 0;
+ 
+}
+.intro img {
+    width: 80%;
 }
