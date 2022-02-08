@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS - positioning</title>
+    <meta charset="UTF-8">
+    <link href="../styles/css-positioning.css" rel="stylesheet" type="text/css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@300&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=auto"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation Section -->
+    <div class="header">
+        <nav class="navigation">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="blog.html" target="_blank">Blog</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- Content Section -->
+
+    <div class="main">
+        <h1 class="title">WHAT ARE THE DIFFERENCES BETWEEN RELATIVE, ABSOLUTE, AND FIXED POSTITIONING?</h1>
+
+        <p>While designing websites you need to control how elements behave and are displayed on the page.
+            Let's say you wish to position elements next to each other or fix a certain element at the top of your page.
+            That's when CSS's position property comes into play.
+            Though it's mighty of doing much more and takes in five values: static, relative, absolute, fixed, and
+            sticky, today we'll be focusing on the relative, absolute and fixed values.</p>
+
+        <h3> Learning Competencies</h3>
+        <ul>
+            <li><em>Compare relative, absolute and fixed positions to determine their differences.</em></li>
+            <li><em> Explain how to use these values.</em></li>
+        </ul>
+        <p>Let's get started!</p>
+        <h3>POSITION: RELATIVE </h3>
+        <p>Relative value allows you to position an element relative to its default static position on the page.
+            However, if you just give an element position: relative it will not change its location. To move a
+            relatively positioned element you need to tell it where to go by accompanying the position declaration with
+            one or more of the following properties:</p>
+        <ul>
+            <li><em>top - moves the element down from the top.</em></li>
+            <li><em>bottom - moves the element up from the bottom.</em></li>
+            <li><em>left - moves the element away from the left side (to the right).</em></li>
+            <li><em>right - moves the element away from the right side (to the left).</em></li>
+        </ul>
+        <div class="media">
+            <img src="resources/images/dancing-container.jpg" />
+        </div>
+        <p>In the given example, the element will be moved down 25 pixels, and to the right 40 pixels from its default
+            static position. Let's see how the element will be displayed:</p>
+        <div class="media">
+            <img src="resources/images/relative.jpg" />
+        </div>
+        <h3>POSITION: ABSOLUTE</h3>
+        <p>When an element has position: absolute, all other elements will act like it does not exist on the page. It
+            makes position: absolute very useful when you want to stick an element in a specific position, but you do
+            not want anything else to move around it.</p>
+        <p>The position of the absolute element is determined by its parent element, so the element will be located
+            relative to its closest parent element. Top, bottom, left, right properties allow you to modify the final
+            position of the element.</p>
+        </p>
+        <h3>POSITION: FIXED</h3>
+        <p>Fixed position is similar to absolute position since it removes the element from the document flow, but fixed
+            position elements are always positioned relative to the screen no matter what position its parent elements
+            are.</p>
+        <p>Fixed positioned elements stay on the screen when you scroll.</p>
+
+        <div class="media">
+            <img src="resources/images/fixed.jpg" />
+        </div>
+        <p>In the example above the child-container completely ignores the parent position and moves to the very top of
+            the screen. It sticks to the top right corner and stays there when you scroll. </p>
+
+    </div>
+
+</body>
