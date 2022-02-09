@@ -10,6 +10,7 @@
 body {
     background-color: rgb(244, 253, 253);
     font-family: 'Roboto', sans-serif;
+    
 }
 
 /* Navigation Section*/
@@ -55,8 +56,8 @@ nav a {
 }
 
 .intro img {
-    /*width: 70%;*/
-    height: 70vh;
+    max-width: 70vw;
+    max-height: 70vh;
 }
 
 h3 {
@@ -97,7 +98,7 @@ h3 {
 
     .name {
         font-size: 1.7rem;
-        margin-top:2rem;
+        margin-top: 2rem;
     }
 
     .main h3 {
