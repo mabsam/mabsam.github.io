@@ -42,6 +42,8 @@ body {
     font-family: 'Oswald', sans-serif;
     font-size: 2.7rem;
     margin-bottom: 2.5rem;
+    
+    
 }
 
 h3 {
@@ -49,7 +51,7 @@ h3 {
 }
 
 .main {
-    padding: 3rem 8rem;
+    padding: 3rem 10rem;
 }
 
 h3, h4, p {
@@ -58,4 +60,5 @@ h3, h4, p {
 
 p {
     font-size: 1.1rem;
+    line-height: 1.6;
 }
