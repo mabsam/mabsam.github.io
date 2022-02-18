@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JS Fundamentals</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../styles/css-positioning.css" rel="stylesheet" type="text/css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@300&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=auto"
+        rel="stylesheet">
+</head>
+<!-- Navigation Section -->
+
+<body>
+    <div class="header">
+        <nav class="navigation">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="blog.html" target="_blank">Blog</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- Content Section -->
+    <div class="main">
+        <h1 class="title">JAVASCRIPT FUNDAMENTALS</h1>
+        <h3>An analogy to describe the differences between HTML and CSS</h3>
+        <div class="media">
+            <img class="html-css" src="resources/images/HTML-CSS-analogy.jpg" />
+        </div>
+        <p>HTML is like a newbuild house - it has walls, floor, ceiling, doors, and windows, it also has a certain number of floors and rooms, however, living in this house would not be comfortable yet. </p>  
+        <p>  CSS is like design and styling of this house - adding some paintings here and there, comfy sofas, carpets, tables and chairs to make living in it more enjoyable. </p>
+<p>JavaScript is like adding some interactive features to the house: plumbing system, electricity, gas. </p>
+
+        <h3>Control flow and loops</h3>
+        <p> Java Script control flow is the way the computer runs code from top to bottom, starting from the first line of code and ending at the last line, except for the situations when it gets a statement that changes the control flow of the program such as loops, conditionals etc.
+          </p>
+          <p> Sometimes while coding you may find yourself in a situation where you need to perform certain tasks repeatedly. Loops give an opportunity to repeat a piece of code until a certain condition is met.
+            It is like painting a wall. In order to achieve a rich and deep colour, you will have to cover the wall with two or even three coats of paint. </p>
+
+        <h3>Mighty DOM</h3>
+        <p>DOM stands for Document Object Model. JavaScript accesses the contents of a webpage making use of DOM which is created by the browser when a page is rendered. It is created in the system like a tree structure.
+            The DOM lets you manipulate the elements and their contents, but first we need to reach the corresponding DOM object.
+           </p>
+           <p>  The main 'gateway' to DOM is the 'document' object, since all operations on the DOM start there.
+            Interacting with a webpage is the same as interacting with its Document Object Model. Since a web browser creates DOM whenever a webpage gets rendered, you can add or remove HTML elements by manipulating the DOM itself. Also, you can style the elements using the CSS stylesheet, add user interaction by attaching event listeners, like click or a keypress on the keyboard, to the HTML elements.
+            </p>
+            <p>For instance, the following command will get the first paragraph and assign it to a variable 'p':</p>
+                        <p><span class="code">let p = document.querySelector('p')</span></p>
+           <p><span class="code">p.classList.add('blue')</span> will give it a class 'blue'.</p>
+            <h3>Accessing data from arrays and objects.</h3>
+            <p>The properties of Objects can be accessed by using either dot notation or square bracket notation:</p>
+               <p> <span class="code"> visitor {name: Josh, address: “1 Queen St”, phone: 222 222} </span></p> 
+               <p> <span class="code"> visitor.name</span> or <span class="code">visitor[name] </span></p>
+                 
+               <p> Unlike objects, array contents can be accessed using their index position starting from 0. Arrays are accessed like this:
+                <span class="code">shoppingList = [“pasta”, “rice”, “cheese”];</span>
+                If you need to access “cheese” you would type <span class="code">shoppingList[2].</span></p>
+                <h3>Functions</h3>
+                <p>A function is a reusable block of code that groups together a sequence of statements to perform a particular task. JS function is executed when it is called.</p>
+ 
+                  <p><span class="code">function subtraction(number1, number2) {
+                      return number1 - number2;
+                    }</span></p>
+                     <p>Calling the function:</p>
+                     <p><span class="code">subtraction(10, 5);  // 5</span></p>
+                     
+                   <p> Creating a function allows you to avoid writing the same code multiple times for different inputs.  </p>
+
+        </div>
+        </body>
+        </html>
+
+
+
+
+
+
+
+ 
+
+
+ 
