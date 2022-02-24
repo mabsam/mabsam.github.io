@@ -95,12 +95,22 @@ p {
 .code {
     background-color: #e8eff1;
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 1.1rem;
 
 }
 
 .crossed-out {
     text-decoration: line-through;
+}
+
+.main-problem-solving {
+    padding: 3rem 12rem;
+}
+
+.main-problem-solving ul {
+    margin-bottom: 1rem;
+    padding-left: 0.5rem;
+
 }
 
 @media only screen and (max-width: 780px) {
@@ -122,4 +132,7 @@ p {
     width: 100%;
     height: auto; 
   }
+  .main-problem-solving {
+    padding: 1.1rem;
+}
 }
