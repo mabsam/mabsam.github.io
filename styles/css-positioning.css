@@ -136,3 +136,50 @@ p {
     padding: 1.1rem;
 }
 }
+
+@media only screen and (max-width: 320px) {
+  .main {
+      padding: 1rem;
+  }
+ img {
+     width: auto;
+     height: auto;
+ }
+ .title {
+     font-size: 2.1rem;
+ }
+body {
+    width: 100%;
+
+}
+.html-css {
+  width: 100%;
+  height: auto; 
+}
+.main-problem-solving {
+  padding: 1.1rem;
+}
+}
+@media only screen and (max-width: 1200px) {
+  .main {
+      padding: 1rem;
+  }
+ img {
+     width: auto;
+     height: auto;
+ }
+ .title {
+     font-size: 2rem;
+ }
+body {
+    width: 100%;
+
+}
+.html-css {
+  width: 100%;
+  height: auto; 
+}
+.main-problem-solving {
+  padding: 1.1rem;
+}
+}
